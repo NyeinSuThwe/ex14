@@ -65,3 +65,7 @@ body{
   object-fit:cover;
   display:block;
 }
+
+.card__title{ font-size:1.125rem; margin-top:.75rem; color:var(--ink-strong); }
+.card__stat{ display:flex; align-items:center; gap:.5rem; margin:.5rem 0; color:var(--muted); font-weight:600; }
+.card__desc{ border-top:1px solid var(--line); padding-top:.75rem; line-height:1.55; color:var(--ink); }
