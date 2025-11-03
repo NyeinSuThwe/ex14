@@ -1,15 +1,16 @@
 :root{
-  --paper:#FADADD;     /* page bg (soft pink) */
-  --ink:#333333;       /* body text */
+  --paper:#FADADD;
+  --ink:#333333;
   --ink-strong:#1A1A1A;
-  --muted:#666666;     /* secondary text */
-  --card:#FFFFFF;      /* card bg */
-  --line:#EDE8F5;      /* borders/divider (soft lilac) */
-  --brand:#B4E9E2;     /* mint accent */
-  --brand-100:#E9FBF8; /* light mint wash */
+  --muted:#666666;
+  --card:#FFFFFF;
+  --line:#EDE8F5;
+  --brand:#B4E9E2;
+  --brand-100:#E9FBF8;
   --radius:12px;
   --gap:1.5rem;
 }
+
 *{ margin:0; padding:0; box-sizing:border-box; }
 
 html{ font-size:16px; }
@@ -19,6 +20,7 @@ body{
   background:var(--paper);
   min-height:100dvh;
 }
+
 .site-header{ text-align:center; padding:2.5rem 1rem 1rem; }
 .site-header h1{ text-transform:uppercase; letter-spacing:.08em; font-weight:700; }
 .tag{
@@ -41,6 +43,7 @@ body{
   max-width:1100px;
   margin-inline:auto;
 }
+
 .card{
   display:flex;
   flex-direction:column;
